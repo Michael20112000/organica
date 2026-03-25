@@ -69,7 +69,7 @@
       "title": "We know that food <br></br><italic>can heal</italic>"
     }
   },
-  "aboutUs": "About us",
+  "aboutUs": "ABOUT US",
   "address": "Shevchenko Street, 73A, Lviv",
   "appetizer": "Appetizers",
   "article": {
@@ -119,9 +119,9 @@
       "title": "Contacts"
     }
   },
-  "contacts": "Contacts",
+  "contacts": "CONTACTS",
   "daily": "Daily",
-  "delivery": "Delivery",
+  "delivery": "DELIVERY",
   "desserts": "Desserts",
   "discount": {
     "header": "Promotions",
@@ -138,6 +138,7 @@
     "feedback": "For suggestions and requests"
   },
   "drinks": "Drinks",
+  "events": "Events",
   "eventsPage": {
     "pageTitle": "Events",
     "card": {
@@ -238,9 +239,9 @@
     }
   },
   "lookOver": "Look over",
-  "main": "Home",
+  "main": "HOME",
   "mainDish": "Main dishes",
-  "menu": "Menu",
+  "menu": "MENU",
   "menuItemPage": {
     "calories": "Calories",
     "caloriesCount": "kcal",
@@ -428,7 +429,7 @@
     "sectionTitle-6": "6. Changes to This Policy",
     "sectionIntro-6": "We may periodically update this Privacy Policy. All changes will be published on this page with the updated date."
   },
-  "reservation": "Reservation",
+  "reservation": "RESERVATION",
   "reviews": {
     "dishReviewsTitle": "Dish <italic>Reviews</italic>",
     "loadMoreButton": "More Reviews",
@@ -494,7 +495,7 @@
       "item3": "<b>Phone:</b> +380 63 787 17 77"
     }
   },
-  "useful": "Useful",
+  "useful": "USEFUL",
   "usefulSection": {
     "Article": "Articles",
     "Documentaries": "Documentaries",

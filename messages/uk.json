@@ -69,7 +69,7 @@
       "title": "Ми знаємо, що їжа<br></br><italic>може зцілювати</italic>"
     }
   },
-  "aboutUs": "Про нас",
+  "aboutUs": "ПРО НАС",
   "address": "Львів, вул. Шевченка, 73A",
   "appetizer": "Закуски",
   "article": {
@@ -119,9 +119,9 @@
       "title": "Контакти"
     }
   },
-  "contacts": "Контакти",
+  "contacts": "КОНТАКТИ",
   "daily": "Щодня",
-  "delivery": "Доставка",
+  "delivery": "ДОСТАВКА",
   "desserts": "Десерти",
   "discount": {
     "header": "Акції",
@@ -138,6 +138,7 @@
     "feedback": "Для пропозицій та побажань"
   },
   "drinks": "Напої",
+  "events": "Події",
   "eventsPage": {
     "pageTitle": "Події",
     "card": {
@@ -238,9 +239,9 @@
     }
   },
   "lookOver": "Переглянути",
-  "main": "Головна",
+  "main": "ГОЛОВНА",
   "mainDish": "Основні страви",
-  "menu": "Меню",
+  "menu": "МЕНЮ",
   "menuItemPage": {
     "calories": "Калорійність",
     "caloriesCount": "ккал",
@@ -428,7 +429,7 @@
     "sectionTitle-6": "6. Зміни до Політики",
     "sectionIntro-6": "Ми можемо періодично оновлювати цю Політику конфіденційності. Усі зміни публікуються на цій сторінці з оновленою датою."
   },
-  "reservation": "Бронювання",
+  "reservation": "БРОНЮВАННЯ",
   "reviews": {
     "dishReviewsTitle": "Відгуки <italic>про страви</italic>",
     "loadMoreButton": "Більше відгуків",
@@ -494,7 +495,7 @@
       "item3": "<b>Телефон:</b> +380 63 787 17 77"
     }
   },
-  "useful": "Корисне",
+  "useful": "КОРИСНЕ",
   "usefulSection": {
     "Article": "Статті",
     "Documentaries": "Документальні Фільми",
