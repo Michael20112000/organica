@@ -1,5 +1,5 @@
 import { Link } from '@/i18n/navigation'
-// import { Logotype } from '@/shared/components'
+import { Logotype } from '@/shared/components'
 import {
   getHeaderNavigationLinks,
   type NavigationLink,
@@ -8,8 +8,10 @@ import {
 import { styles } from './styles'
 
 export const Header = async () => {
-  const { firstNavigationPart, secondNavigationBarPart } =
-    await getHeaderNavigationLinks()
+  const {
+    firstNavigationPart,
+    // secondNavigationBarPart
+  } = await getHeaderNavigationLinks()
 
   const renderNavigationLinks = (links: NavigationLink[]) => {
     return links.map(link => (
@@ -28,14 +30,14 @@ export const Header = async () => {
         {renderNavigationLinks(firstNavigationPart)}
       </nav>
 
-      {/*<Link href='/'>*/}
-      {/*  <Logotype className={styles.logotype} />*/}
-      {/*</Link>*/}
+      <Link href='/'>
+        <Logotype className={styles.logotype} />
+      </Link>
 
-      <nav className={styles.secondNavBarPart}>
-        {renderNavigationLinks(secondNavigationBarPart)}
-        {/*<Burger />*/}
-      </nav>
+      {/*<nav className={styles.secondNavBarPart}>*/}
+      {/*  {renderNavigationLinks(secondNavigationBarPart)}*/}
+      {/*  <Burger />*/}
+      {/*</nav>*/}
     </header>
   )
 }
