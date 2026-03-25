@@ -4,7 +4,7 @@ import {
   getHeaderNavigationLinks,
   type NavigationLink,
 } from './get-header-navigation-links'
-// import { Burger } from './burger'
+import { Burger } from './burger'
 import { styles } from './styles'
 
 export const Header = async () => {
@@ -34,10 +34,10 @@ export const Header = async () => {
         <Logotype className={styles.logotype} />
       </Link>
 
-      {/*<nav className={styles.secondNavBarPart}>*/}
-      {/*  {renderNavigationLinks(secondNavigationBarPart)}*/}
-      {/*  <Burger />*/}
-      {/*</nav>*/}
+      <nav className={styles.secondNavBarPart}>
+        {/*{renderNavigationLinks(secondNavigationBarPart)}*/}
+        <Burger />
+      </nav>
     </header>
   )
 }
