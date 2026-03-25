@@ -1,0 +1,512 @@
+{
+  "formErrors": {
+    "requiredFieldMessage": "This field is required",
+    "correctPhoneFormatMessage": "Please enter a valid phone number",
+    "correctEmailFormatMessage": "Please enter a valid email"
+  },
+  "about": {
+    "ourTeam": {
+      "title": "Our Team"
+    },
+    "booking": {
+      "btnLabel": "Book a Table",
+      "content": "We minimize waste and implement a Zero-Waste principle in our kitchen, ensuring efficient use of ingredients and reducing our environmental impact. Choosing plant-based cuisine helps support agriculture, conserve water, and reduce greenhouse gas emissions.",
+      "sectionLabel": "Organic only",
+      "title": "All our dishes are created with care <italic>for the planet</italic>"
+    },
+    "certificateGifted": {
+      "subTitle": "<italic>Our care manager will contact<br></br> you shortly</italic>",
+      "title": "Your data has been <br></br> successfully submitted <br></br> <italic>Thank you!</italic>"
+    },
+    "cta": {
+      "title": "Give your loved ones certificates <br></br><italic>to the Organica restaurant</italic>",
+      "present": "Give as a gift"
+    },
+    "first": {
+      "content": "We are cooking food <br></br><italic>that heals</italic>",
+      "menu": "View Menu",
+      "phrase": "About us"
+    },
+    "giftCertificateModal": {
+      "form": {
+        "nameLabel": "Your name",
+        "phoneNumberLabel": "Phone number"
+      },
+      "messageText": "Perfect for birthdays, thanksgiving, or any other occasion.",
+      "submitButton": "Submit",
+      "subtitle": "<italic>Please fill out the form, and we’ll get in touch <br></br>to clarify the details.</italic>",
+      "title": "Experience the taste <br></br><italic>of health and care</italic>"
+    },
+    "info": {
+      "content": "Welcome to Organica, your destination for tasty healthy dining. Here, you never have to choose between delicious and nutritious. Our menu offers something for everyone — dishes that not only satisfy your taste buds but also nourish your body. We create delicious meals that pave the way to your health and longevity.",
+      "title": "Discover a wholesome <br></br><italic>plant-based cuisine</italic>"
+    },
+    "menu": {
+      "btnLabel": "Full menu",
+      "label": "Organic dishes that retain all the natural goodness for your well-being.",
+      "title": "Plant-based cuisine <br></br><italic>inspired by Nature</italic>"
+    },
+    "mission": {
+      "content": "We strive to share our knowledge about the benefits of plant-based nutrition and show you how to make it a part of your life. We also aim to demonstrate how proper planning and improving your diet can lead to positive physical, mental, and spiritual outcomes.",
+      "item1": "We ensure the highest quality of our dishes through careful ingredient selection and their reasonable use.",
+      "item2": "We enrich our dishes with a variety of superfoods — ashwagandha, maca, chia, CBD, and more — making them even more healthy and nutritious.",
+      "item3": "Each dish on our menu is thoughtfully crafted to provide a balanced mix of fats, proteins, carbohydrates, and essential macro- and micronutrients.",
+      "item4": "We prepare all our dishes in-house, using only fresh ingredients — no processed foods or synthetic additives.",
+      "item5": "We use only fresh, organic ingredients, sourcing them from local farmers who grow their produce with respect for the environment.",
+      "title": "Our Values<br></br><italic> and Purpose</italic>"
+    },
+    "principles": {
+      "item1": "We prepare vegetables quickly and simply, preserving their natural essence — vibrant colors, fresh flavors, and crisp textures — along with their nutritional value to support your health.",
+      "item2": "Fruits are healthiest when eaten raw. We soak grains and legumes in advance and cook them thoroughly in high-quality, clean water.",
+      "item3": "Plant-based fats, essential for nutrient absorption and flavor enhancement, are added at the end of cooking. The same applies to herbs, which are important for aiding and stimulating digestion.",
+      "item4": "Spices are added first when cooking. Their role is to aid digestion, stimulate the digestive system, and support other essential functions of the body.",
+      "item5": "Spices are added first when cooking. Their role is to aid digestion, stimulate the digestive system, and support other essential functions of the body.",
+      "title": "Our Cooking <br></br><italic>Philosophy</italic>"
+    },
+    "vision": {
+      "content": "Our concept of plant-based cuisine was born from a desire to inspire everyone toward a healthy lifestyle. It’s well known that food affects every aspect of human life — physical health, mental clarity, and emotional well-being. By choosing nutritious plant-based dishes, you enhance your health and overall quality of life.",
+      "label": "Our vision",
+      "title": "We know that food <br></br><italic>can heal</italic>"
+    }
+  },
+  "aboutUs": "About us",
+  "address": "Shevchenko Street, 73A, Lviv",
+  "appetizer": "Appetizers",
+  "article": {
+    "Article": "Article",
+    "Documentaries": "Documentaries",
+    "Event": "Event",
+    "News": "News",
+    "Recipe": "Recipe",
+    "Scientific Research": "Scientific Research",
+    "allArticles": "All articles",
+    "author": "Author",
+    "backToList": "Back to list",
+    "rate": "Article rating",
+    "relatedTitle": "Related articles",
+    "title": "Why healthy eating is important in today's world"
+  },
+  "articles": "Articles",
+  "blog": "Blog",
+  "breakfasts": "Breakfasts",
+  "contact": {
+    "contactsSection": {
+      "address": "Location",
+      "btnLabelFeedback": "Leave Feedback",
+      "btnLabelRoute": "Route",
+      "mail": "Email",
+      "phoneAppeal": "For suggestions and requests",
+      "phoneBooking": "Phone for reservations",
+      "socials": "Social media",
+      "telephone": "Phones",
+      "title": "We look forward to welcoming you at <br></br><italic>Organika Restaurant.</italic>"
+    },
+    "feedbackModal": {
+      "form": {
+        "feedbackLabel": "Write your feedback",
+        "nameLabel": "Your name",
+        "phoneNumberLabel": "Phone number"
+      },
+      "submitButton": "Submit",
+      "subtitle": "We appreciate your feedback <br></br> to help us get better.",
+      "successText": "Our care manager will contact you shortly",
+      "successTitle": "Your data has been successfully submitted. <br></br><italic>Thank you!</italic>",
+      "title": "We hear you — with understanding and empathy <br></br><italic>We value your feedback</italic>"
+    },
+    "firstSection": {
+      "btnLabel": "View menu",
+      "phrase": "Always happy to serve you",
+      "title": "Contacts"
+    }
+  },
+  "contacts": "Contacts",
+  "daily": "Daily",
+  "delivery": "Delivery",
+  "desserts": "Desserts",
+  "discount": {
+    "header": "Promotions",
+    "noDataTitle": "Сurrently we have no active promotions, but we’re already working on something exciting for you!",
+    "noPromoPhrase": "Please follow our social media channels for the latest updates.",
+    "promoDuration": "The promotion runs from",
+    "readLess": "Hide",
+    "readMore": "Read more"
+  },
+  "discounts": "Promotions",
+  "drawer": {
+    "address": "Address",
+    "booking": "Booking phone number",
+    "feedback": "For suggestions and requests"
+  },
+  "drinks": "Drinks",
+  "eventsPage": {
+    "pageTitle": "Events",
+    "card": {
+      "viewButton": "VIEW",
+      "attention": "Attention: Seating is limited! Reserve your table now to experience the true taste of organic cuisine."
+    },
+    "event-1": {
+      "about": {
+        "label": "about the event",
+        "text": "We've prepared a special menu crafted from the finest seasonal ingredients sourced from local farmers. Experience the true taste of nature in every dish!",
+        "title": "On February 14, we invite you to a festive romantic dinner for those seeking more than food and impressions"
+      },
+      "booking": {
+        "btnLabel": "reserve",
+        "call": "Call us or book your table online:",
+        "chat": "Chat via messengers:",
+        "text": "Seating is limited! Reserve your table now to experience the true taste of organic cuisine. Cost — 2000 UAH per person.",
+        "title": "How to reserve a table?"
+      },
+      "head": {
+        "address": "Organika Restaurant, 73A Shevchenka St.",
+        "btnLabel": "reserve",
+        "date": "February 14, 2026",
+        "time": "4:30 PM or 7:00 PM",
+        "title": "Love is… Organica ✨<br></br> an evening where love tastes special"
+      },
+      "invitation": {
+        "text": "Follow the exciting events of the 'Organica' restaurant on social media",
+        "title": "Join us for a nature-friendly gastronomic evening!"
+      },
+      "program": {
+        "address": "Organika Restaurant<br/>Lviv, 73 Shevchenka St.",
+        "btnLabel": "reserve",
+        "text1": "🍽 A set of 4 signature dishes from the chef",
+        "text2": "🎶 Live music",
+        "text3": "💌 A prediction card for each guest",
+        "text4": "🎁 A pleasant gift at the end of the evening",
+        "title": "What Awaits You?"
+      },
+      "swiper": {
+        "slide1": "Spelt and Whole Grain Oatmeal Pancakes",
+        "slide2": "Crispy Eggplant with Teriyaki Sauce",
+        "slide3": "Tofu Cheesecake",
+        "slide4": "Fresh greens salad with quinoa and citrus dressing",
+        "slide5": "Creamy soup made from seasonal vegetables and aromatic herbs",
+        "title": "A Special Evening Menu,<br></br> Crafted with Care"
+      }
+    },
+    "noEvents": {
+      "title": "We don't have any events planned right now, but we're already preparing something interesting for you!",
+      "description": "Follow us on social media"
+    },
+    "title": "Why Healthy Eating Matters in Today’s World"
+  },
+  "feedback": "Feedback",
+  "footer": {
+    "address": "Address",
+    "booking": "For booking",
+    "btnLabelFeedback": "Leave feedback",
+    "btnLabelRoute": "Route",
+    "feedback": "For suggestions and requests",
+    "mondayShort": "Mon",
+    "phone": "Phones",
+    "policy": "Privacy Policy",
+    "sundayShort": "Sun",
+    "terms": "User Agreement"
+  },
+  "fullAddress": "Shevchenko Street, 73A, Lviv",
+  "gallery": "Gallery",
+  "home": {
+    "harmony": {
+      "sectionLabel": "Discover the value and power of living <br></br>plant-based cuisine",
+      "title": "Savor the <italic>benefits</italic><br></br> in every <italic>dish</italic>"
+    },
+    "info": {
+      "about": "Our restaurant is a place where caring for human and planetary health becomes a part of every dish. We support local farmers, adhere to the principles of sustainable development, and provide high-quality dishes that contribute to the well-being of our guests.",
+      "mission": "Our mission is to demonstrate how living plant food heals the body, mind and brings pleasure! Our vision is to be a space where every dish fills you with energy, restores health and opens the way to longevity. Organic Restaurant was created by healthy lifestyle enthusiasts who have experienced firsthand that living plant foods replace medicines and slow down aging, has a positive effect on the mental state and leads to elevated thoughts.",
+      "sectionLabel": "About the restaurant",
+      "title": "Health begins<br></br><italic>with plant-based food</italic>"
+    },
+    "menu": {
+      "breakfasts": "Healthy breakfasts",
+      "btnLabel": "View menu",
+      "chef": "Signature Dishes",
+      "content": "Every dish on our menu is carefully crafted with a balanced mix of fats, proteins, carbohydrates, and both macro and micronutrients. We ensure the highest quality by carefully selecting our ingredients and using them thoughtfully. All the ingredients we use are always organic and fresh.",
+      "desserts": "Sugar-Free Desserts",
+      "dinner": "Nutritious Soups",
+      "header": "Top <italic>dishes</italic><br></br> on the <italic>menu</italic>"
+    },
+    "nature": {
+      "btnLabel": "Book a table",
+      "content": "We founded Organica restaurant to change the way plant-based cuisine is perceived, showcasing its diversity and potential. We are excited to introduce our guests to new approaches to eating habits and share deep insights into the benefits of plant-based food. We study the latest global research in healthy eating to ensure our dishes provide the maximum health benefits.",
+      "title": "With love <italic>for nature</italic>,<br></br> with care <italic>for you</italic>"
+    },
+    "news": {
+      "btnLabel": "All events",
+      "title": "Useful <italic>Resources</italic>"
+    }
+  },
+  "lookOver": "Look over",
+  "main": "Home",
+  "mainDish": "Main dishes",
+  "menu": "Menu",
+  "menuItemPage": {
+    "calories": "Calories",
+    "caloriesCount": "kcal",
+    "carbs": "Carbohydrates",
+    "fats": "Fats",
+    "gramsCount": "g",
+    "itsInterestingTitle": "Fun facts!",
+    "orderButtonText": "Order",
+    "portion": "Portion",
+    "proteins": "Proteins",
+    "sliderSectionTitle": "Guest <italic>Reviews</italic>",
+    "relatedSectionTitle": "You might also <br></br> like"
+  },
+  "meta": {
+    "home": {
+      "metaTitle": "Organica - Restaurant of delicious wholesome сuisine in Lviv",
+      "metaDescription": "Organica is a healthy eating restaurant in Lviv. Taste the goodness in every dish made from organic ingredients."
+    },
+    "about": {
+      "metaTitle": "Organica Restaurant — Our Philosophy: Nature, Nutrition & Longevity",
+      "metaDescription": "Learn more about our mission, philosophy, and values at Organica, where healthy eating meets excellence."
+    },
+    "contacts": {
+      "metaTitle": "Organica — Contact Information of the Healthy Cuisine Restaurant",
+      "metaDescription": "Getting in touch with Organica is easy. Find out how to contact us via address, phone, or social media."
+    },
+    "events": {
+      "metaTitle": "Events – Organica Restaurant",
+      "metaDescription": "Keep up with the latest events at Organica, where every gathering is an opportunity to experience healthy eating."
+    },
+    "policy": {
+      "metaTitle": "Privacy Policy – Organica Restaurant",
+      "metaDescription": "Discover how Organica collects, uses, and protects your personal data. Read our full privacy policy to understand your rights and our practices."
+    },
+    "promotions": {
+      "metaTitle": "Promotions at Organica Restaurant | Discounts & Bonuses for Dine-in and Delivery",
+      "metaDescription": "Discover the latest promotions and special offers at Organica, where healthy eating always comes at a great price."
+    },
+    "reviews": {
+      "metaTitle": "Customer Reviews – Organica Restaurant",
+      "metaDescription": "Read real guest reviews about Organica Restaurant. Discover what customers are saying about our food, service, and atmosphere."
+    },
+    "terms": {
+      "metaTitle": "Terms of Use – Organica Restaurant",
+      "metaDescription": "Read the Terms of Use for Organica's official website. Learn about online orders, content use, privacy, and your responsibilities as a visitor."
+    },
+    "useful": {
+      "metaTitle": "Organica — Useful Articles, Recipes & Research on Plant‑Based Nutrition",
+      "metaDescription": "Helpful tips, recipes, and articles from Organica for those who want to learn more about healthy eating and organic products."
+    }
+  },
+  "mondayShort": "Mon",
+  "name": "Organica",
+  "notFound": {
+    "btnLabel": "Back to homepage",
+    "label": "Sorry, we can't find the page you're looking for"
+  },
+  "policyPage": {
+    "title": "Privacy <br></br><italic>Policy</italic>",
+    "about": "This Privacy Policy describes how the healthy food restaurant Organica (hereinafter — \"we\", \"our\", \"the restaurant\") collects, uses, and protects users' personal information (hereinafter — \"you\", \"user\") on the website <b>https://organica.com.ua/</b> (hereinafter — \"Website\").",
+    "sectionTitle-1": "1. What Information We Collect",
+    "sectionIntro-1": "We may collect the following information:",
+    "sectionList-1": {
+      "item1": "First and last name",
+      "item2": "Email address",
+      "item3": "Phone number",
+      "item4": "Delivery address (if you place an online order)",
+      "item5": "Order details",
+      "item6": "Cookies and website usage data (via Google Analytics or other tools)"
+    },
+    "sectionTitle-2": "2. How We Use Your Information",
+    "sectionIntro-2": "Collected information may be used for:",
+    "sectionList-2": {
+      "item1": "Processing and delivering your orders",
+      "item2": "Providing personalized services",
+      "item3": "Responding to your inquiries",
+      "item4": "Improving our website and services",
+      "item5": "Sending newsletters (with your consent)"
+    },
+    "sectionTitle-3": "3. Data Storage and Protection",
+    "sectionIntro-3": "We take the security of users’ personal data seriously and apply all necessary measures to protect it.",
+    "sectionTitle-3-1": "3.1. Data Retention Period",
+    "sectionIntro-3-1": "We retain your personal data only for as long as necessary to fulfill the purposes for which it was collected, specifically:",
+    "sectionList-3-1": {
+      "item1": "order data — up to 1 year after order completion;<b></b>",
+      "item2": "newsletter data — until you withdraw your consent;",
+      "item3": "analytical data — up to 24 months (e.g., Google Analytics)."
+    },
+    "sectionClose-3-1": "After the retention period expires, data will be securely deleted or anonymized.",
+    "sectionTitle-3-2": "3.2. Data Storage Location",
+    "sectionIntro-3-2": "Your data may be stored:",
+    "sectionList-3-2": {
+      "item1": "on secure servers of our hosting provider within the European Union or Ukraine;",
+      "item2": "in internal CRM systems or databases accessible only to authorized personnel."
+    },
+    "sectionClose-3-2": "We do not transfer data outside the European Economic Area without appropriate legal safeguards (e.g., standard contractual clauses under the GDPR).",
+    "sectionTitle-3-3": "3.3. Technical and Organizational Safeguards",
+    "sectionIntro-3-3": "To protect personal data, we have implemented the following measures:",
+    "sectionList-3-3": {
+      "item1": "<b>SSL/HTTPS</b> for secure connection between the website and your browser;",
+      "item2": "<b>Two-factor authentication</b> for access to administrative systems;",
+      "item3": "<b>Regular data backups</b>;",
+      "item4": "<b>Access restrictions</b> to personal data limited to employees who require it for their duties;",
+      "item5": "<b>Antivirus protection and DDoS mitigation</b> (via hosting platform);",
+      "item6": "<b>Security audits</b> — periodic vulnerability checks of our systems."
+    },
+    "sectionTitle-3-4": "3.4. In Case of Data Breach or Security Incident",
+    "sectionIntro-3-4": "If we detect a security breach that may impact your personal data, we commit to:",
+    "sectionList-3-4": {
+      "item1": "notify you as soon as possible (no later than 72 hours);",
+      "item2": "inform the relevant supervisory authority;",
+      "item3": "take actions to mitigate damage and prevent further incidents."
+    },
+    "sectionTitle-4": "4. Data Sharing with Third Parties",
+    "sectionIntro-4": "We do not sell, transfer, or disclose your personal data to third parties without your explicit consent, except as described in this Policy or as required by law.",
+    "sectionTitle-4-1": "4.1. Service Providers",
+    "sectionIntro-4-1": "We may share your personal data with third parties who help us deliver our services, specifically:",
+    "sectionList-4-1": {
+      "item1": "<b>Delivery services</b> (e.g., courier or food delivery companies) — for order fulfillment;",
+      "item2": "<b>Payment systems</b> (e.g., LiqPay, WayForPay, Stripe, or others) — for processing online payments. Please note that we do not store your card data — transactions are securely handled through partner gateways;",
+      "item3": "<b>Website support partners</b> — only to the extent needed for administration or technical troubleshooting;",
+      "item4": "<b>CRM or email services</b> (e.g., eSputnik, Mailchimp) — for managing subscriptions, promotions, and personalized offers."
+    },
+    "sectionClose-4-1": "All third parties are required to maintain confidentiality and use the data solely to provide their respective services.",
+    "sectionTitle-4-2": "4.2. Analytics and Website Improvements",
+    "sectionIntro-4-2": "We use third-party analytics tools, such as <b>Google Analytics, Meta Pixel (Facebook Pixel)</b>, and others, which may collect anonymized technical data about your interaction with the website (device type, browser, pages visited, etc.).",
+    "sectionClose-4-2": "This data does not identify you personally, but helps us analyze user behavior and improve site functionality.",
+    "sectionTitle-4-3": "4.3. Legal Requirements",
+    "sectionIntro-4-3": "We may disclose your data to third parties in the following situations:",
+    "sectionList-4-3": {
+      "item1": "When required by law (e.g., court order or law enforcement request);",
+      "item2": "If necessary to protect our rights, property, or the safety of users or third parties;",
+      "item3": "To comply with tax or other regulatory obligations."
+    },
+    "sectionTitle-4-4": "4.4. International Data Transfers",
+    "sectionIntro-4-4": "If data is transferred outside Ukraine or the European Economic Area, we ensure that such transfer is carried out in accordance with legal requirements, including standard contractual clauses or other lawful mechanisms.",
+    "sectionTitle-5": "5. Your Rights",
+    "sectionIntro-5": "We respect your right to data protection and enable you to exercise your rights under the <b>Law of Ukraine on Personal Data Protection</b> and, where applicable, the <b>General Data Protection Regulation (GDPR).</b>",
+    "sectionTitle-5-1": "5.1. Right of Access",
+    "sectionIntro-5-1": "You have the right to obtain confirmation as to whether your personal data is being processed, and access to the data along with information about:",
+    "sectionList-5-1": {
+      "item1": "the purposes of processing;",
+      "item2": "categories of personal data;",
+      "item3": "sources of data collection;",
+      "item4": "recipients or categories of recipients of the data;",
+      "item5": "retention periods or criteria for determining them."
+    },
+    "sectionTitle-5-2": "5.2. Right to Rectification",
+    "sectionIntro-5-2": "If your data is inaccurate, incomplete, or outdated, you have the right to request its correction or completion.",
+    "sectionTitle-5-3": "5.3. Right to Erasure (“Right to Be Forgotten”)",
+    "sectionIntro-5-3": "You have the right to request the deletion of your personal data if:",
+    "sectionList-5-3": {
+      "item1": "it is no longer needed for the purposes it was collected;",
+      "item2": "you have withdrawn consent and there is no other legal basis for processing;",
+      "item3": "the data was processed unlawfully;",
+      "item4": "deletion is required to comply with a legal obligation."
+    },
+    "sectionTitle-5-4": "5.4. Right to Restriction of Processing",
+    "sectionIntro-5-4": "You may request restriction of processing in the following cases:",
+    "sectionList-5-4": {
+      "item1": "you contest the accuracy of the data — for the period of verification;",
+      "item2": "processing is unlawful, but you do not want the data to be erased;",
+      "item3": "we no longer need the data, but you require it for legal claims;",
+      "item4": "you object to the processing — pending the verification of legitimate grounds."
+    },
+    "sectionTitle-5-5": "5.5. Right to Object",
+    "sectionIntro-5-5": "You have the right to object to the processing of your data if it is based on our legitimate interests, including profiling or marketing.",
+    "sectionTitle-5-6": "5.6. Right to Data Portability",
+    "sectionIntro-5-6": "In applicable cases, you have the right to receive your personal data in a structured, commonly used format and transmit it to another controller.",
+    "sectionTitle-5-7": "5.7. Right to Withdraw Consent",
+    "sectionIntro-5-7": "If you have given consent to the processing of personal data, you may withdraw it at any time without affecting the lawfulness of processing before withdrawal.",
+    "sectionTitle-5-8": "5.8. Right to Lodge a Complaint",
+    "sectionIntro-5-8": "If you believe your rights have been violated, you have the right to file a complaint:",
+    "sectionList-5-8": {
+      "item1": "to the <b>Ukrainian Parliament Commissioner for Human Rights;</b>",
+      "item2": "to the <b>relevant EU supervisory authority</b> (if GDPR applies);",
+      "item3": "or take legal action to protect your rights."
+    },
+    "section1-5-8": "<b>How to Exercise Your Rights?</b>",
+    "section2-5-8": "To exercise any of the above rights, you may contact us in writing or via email:",
+    "section3-5-8": "<b>Email:</b> info@organica.com.ua",
+    "section4-5-8": "<b>Postal address:</b> Lviv, Shevchenka Street, 73A",
+    "section5-5-8": "<b>Phone:</b> +380 63 787 17 77",
+    "sectionClose-5-8": "We will process your request within 30 calendar days of receipt. If necessary, the period may be extended, and you will be informed accordingly.",
+    "sectionTitle-6": "6. Changes to This Policy",
+    "sectionIntro-6": "We may periodically update this Privacy Policy. All changes will be published on this page with the updated date."
+  },
+  "reservation": "Reservation",
+  "reviews": {
+    "dishReviewsTitle": "Dish <italic>Reviews</italic>",
+    "loadMoreButton": "More Reviews",
+    "title": "Guest <italic>Reviews</italic>"
+  },
+  "route": "Route",
+  "salads": "Salads",
+  "sundayShort": "Sun",
+  "termsPage": {
+    "title": "Terms of <br></br>Use of the <italic>Website</italic>",
+    "about1": "These Terms of Use (hereinafter referred to as the “Terms”) govern the use of the website https://organica.com.ua/ (hereinafter referred to as the “Website”), owned by Organica (hereinafter “We”, “Our Restaurant”, or “Administration”). By using the Website, you agree to these Terms.",
+    "about2": "If you do not agree with these Terms — please do not use the Website.",
+    "sectionTitle-1": "1. Purpose of the Website",
+    "sectionIntro-1": "The Website has been created to:",
+    "sectionList-1": {
+      "item1": "provide information about the restaurant’s menu, services, and location;",
+      "item2": "accept online orders;",
+      "item3": "share news, promotions, and upcoming events;",
+      "item4": "collect customer feedback;",
+      "item5": "support delivery and online payment features (if available)."
+    },
+    "sectionTitle-2": "2. Use of Content",
+    "sectionIntro-2": "All content on the Website — including texts, images, logos, design, and recipes — is either the property of the restaurant or used with proper legal authorization.",
+    "sectionIntro-2-1": "<b>It is strictly prohibited to:</b>",
+    "sectionList-2": {
+      "item1": "copy, distribute, or modify any materials without written consent from the Administration;",
+      "item2": "use our brand or content for commercial purposes without permission."
+    },
+    "sectionTitle-3": "3. Online Orders",
+    "sectionIntro-3": "When placing an order through the Website, you:",
+    "sectionList-3": {
+      "item1": "agree to provide accurate and truthful information (such as contact details, delivery address, etc.);",
+      "item2": "confirm that you are authorized to make payments (if the order is paid);",
+      "item3": "understand that your order is considered confirmed only after a call from our operator or automatic confirmation."
+    },
+    "sectionIntro-3-1": "We reserve the right to refuse order fulfillment in cases of:",
+    "sectionList-3-1": {
+      "item1": "unavailability of ingredients;",
+      "item2": "incorrect or misleading information provided;",
+      "item3": "violation of these Terms."
+    },
+    "sectionTitle-4": "4. Personal Data",
+    "sectionIntro-4": "By using the Website, you agree to our Privacy Policy, which governs the collection, processing, and protection of your personal data.",
+    "sectionTitle-5": "5. Cookies",
+    "sectionIntro-5": "We use cookies to enhance your browsing experience. For more details, please refer to our “Cookie Policy”.",
+    "sectionTitle-6": "6. Liability",
+    "sectionIntro-6": "We are not liable for:",
+    "sectionList-6": {
+      "item1": "temporary unavailability of the Website due to technical reasons;",
+      "item2": "loss or damage of data resulting from external interference;",
+      "item3": "actions of third parties (delivery services, payment systems) involved in processing your order."
+    },
+    "sectionIntro-6-1": "You agree to use the Website responsibly and refrain from any actions that may disrupt its operation or affect other users.",
+    "sectionTitle-7": "7. External Links",
+    "sectionIntro-7": "The Website may contain links to third-party services (such as Google Maps, delivery services, payment platforms, etc.). We are not responsible for the content or privacy policies of these external sites.",
+    "sectionTitle-8": "8. Changes to the Terms",
+    "sectionIntro-8": "We reserve the right to update these Terms without prior notice. The current version will always be available on this page. By continuing to use the Website after changes are made, you automatically agree to the updated Terms.",
+    "sectionTitle-9": "9. Contact",
+    "sectionIntro-9": "If you have any questions regarding these Terms of Use, feel free to contact us:",
+    "sectionList-9": {
+      "item1": "<b>Email:</b> info@organica.com.ua",
+      "item2": "<b>Postal address:</b> Lviv, Shevchenka Street, 73A",
+      "item3": "<b>Phone:</b> +380 63 787 17 77"
+    }
+  },
+  "useful": "Useful",
+  "usefulSection": {
+    "Article": "Articles",
+    "Documentaries": "Documentaries",
+    "Event": "Events",
+    "News": "News",
+    "Recipe": "Recipes",
+    "Scientific Research": "Scientific Research",
+    "all": "All",
+    "btnLabel": "Read",
+    "header": "Helpful <brXsToLg></brXsToLg><italic>Resources</italic>",
+    "readAll": "Read All",
+    "text": "We've prepared the latest news, engaging articles, and delicious recipes to inspire you toward a healthy lifestyle."
+  },
+  "weekOffer": "Weekly Specials"
+}
