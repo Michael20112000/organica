@@ -1,5 +1,5 @@
 import { Link } from '@/i18n/navigation'
-import { Logotype } from '@/shared/components'
+import { TextSwapper, Logotype } from '@/shared/components'
 import {
   getHeaderNavigationLinks,
   type NavigationLink,
@@ -14,7 +14,7 @@ export const Header = async () => {
   const renderNavigationLinks = (links: NavigationLink[]) => {
     return links.map(link => (
       <Link key={link.href} className={styles.link} href={link.href}>
-        {link.text}
+        <TextSwapper text={link.text} />
       </Link>
     ))
   }

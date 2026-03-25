@@ -1,2 +1,1 @@
-export { Logotype } from './logotype'
 export { TextSwapper } from './text-swapper'
