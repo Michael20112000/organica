@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint . --max-warnings=0",
     "prettier:check": "prettier ./src --check",
+    "generate:strapi-types": "npx tsx scripts/generate-strapi-types",
     "prepare": "husky"
   },
   "dependencies": {
