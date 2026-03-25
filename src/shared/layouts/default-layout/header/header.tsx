@@ -8,10 +8,8 @@ import { Burger } from './burger'
 import { styles } from './styles'
 
 export const Header = async () => {
-  const {
-    firstNavigationPart,
-    // secondNavigationBarPart
-  } = await getHeaderNavigationLinks()
+  const { firstNavigationPart, secondNavigationBarPart } =
+    await getHeaderNavigationLinks()
 
   const renderNavigationLinks = (links: NavigationLink[]) => {
     return links.map(link => (
@@ -35,7 +33,7 @@ export const Header = async () => {
       </Link>
 
       <nav className={styles.secondNavBarPart}>
-        {/*{renderNavigationLinks(secondNavigationBarPart)}*/}
+        {renderNavigationLinks(secondNavigationBarPart)}
         <Burger />
       </nav>
     </header>
