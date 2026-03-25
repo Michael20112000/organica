@@ -8,10 +8,8 @@ import {
 import { styles } from './styles'
 
 export const Header = async () => {
-  const {
-    firstNavigationPart,
-    // secondNavigationBarPart
-  } = await getHeaderNavigationLinks()
+  const { firstNavigationPart, secondNavigationBarPart } =
+    await getHeaderNavigationLinks()
 
   const renderNavigationLinks = (links: NavigationLink[]) => {
     return links.map(link => (
@@ -34,10 +32,10 @@ export const Header = async () => {
       {/*  <Logotype className={styles.logotype} />*/}
       {/*</Link>*/}
 
-      {/*<nav className={styles.secondNavBarPart}>*/}
-      {/*  {renderNavigationLinks(secondNavigationBarPart)}*/}
-      {/*  <Burger />*/}
-      {/*</nav>*/}
+      <nav className={styles.secondNavBarPart}>
+        {renderNavigationLinks(secondNavigationBarPart)}
+        {/*<Burger />*/}
+      </nav>
     </header>
   )
 }
