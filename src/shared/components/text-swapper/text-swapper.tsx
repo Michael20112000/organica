@@ -1,12 +1,12 @@
 import type { FC } from 'react'
 import { getStyles } from './styles'
 
-interface ITextSwapperProps {
+interface TextSwapperProps {
   text: string
   styling?: Partial<ReturnType<typeof getStyles>>
 }
 
-export const TextSwapper: FC<ITextSwapperProps> = props => {
+export const TextSwapper: FC<TextSwapperProps> = props => {
   const styles = getStyles(props.styling)
 
   return (

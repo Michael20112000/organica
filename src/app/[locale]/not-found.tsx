@@ -1,5 +1,7 @@
+import { DefaultLayout } from '@/shared/layouts'
+
 const NotFound = () => {
-  return <h1>NotFoundPage</h1>
+  return <DefaultLayout>NotFound</DefaultLayout>
 }
 
 export default NotFound

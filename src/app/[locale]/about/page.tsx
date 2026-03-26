@@ -1,17 +1,17 @@
 import type { FC } from 'react'
 import type { Locale } from 'next-intl'
 import { setRequestLocale } from 'next-intl/server'
-import { HomePage } from '@/app-pages'
+import { AboutPage } from '@/app-pages'
 
-interface HomeProps {
+interface AboutProps {
   params: Promise<{ locale: Locale }>
 }
 
-const Home: FC<HomeProps> = async props => {
+const About: FC<AboutProps> = async props => {
   const { locale } = await props.params
   setRequestLocale(locale)
 
-  return <HomePage />
+  return <AboutPage />
 }
 
-export default Home
+export default About

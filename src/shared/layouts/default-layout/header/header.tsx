@@ -1,5 +1,5 @@
 import { Link } from '@/i18n/navigation'
-import { TextSwapper, Logotype } from '@/shared/components'
+import { TextSwapper, Logotype, LangSwitcher } from '@/shared/components'
 import {
   getHeaderNavigationLinks,
   type NavigationLink,
@@ -22,9 +22,7 @@ export const Header = async () => {
   return (
     <header className={styles.header}>
       <nav className={styles.firstNavBarPart}>
-        <Link className={styles.link} href='/'>
-          UA / EN
-        </Link>
+        <LangSwitcher />
         {renderNavigationLinks(firstNavigationPart)}
       </nav>
 
