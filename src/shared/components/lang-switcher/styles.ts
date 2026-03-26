@@ -5,6 +5,6 @@ export const getStyles = (extra?: Partial<typeof styles>) => {
 }
 
 const styles = {
-  localesWrapper: cn(''),
-  locale: cn(''),
+  localesWrapper: cn('flex gap-4'),
+  locale: cn('data-[active=true]:text-golden data-[active=true]:underline'),
 }

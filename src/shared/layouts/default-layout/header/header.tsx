@@ -22,7 +22,7 @@ export const Header = async () => {
   return (
     <header className={styles.header}>
       <nav className={styles.firstNavBarPart}>
-        <LangSwitcher />
+        <LangSwitcher styling={{ locale: styles.link }} />
         {renderNavigationLinks(firstNavigationPart)}
       </nav>
 
