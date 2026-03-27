@@ -17,7 +17,7 @@ export const LangSwitcher: FC<LangSwitcherProps> = props => {
   const styles = getStyles(props.styling)
 
   return (
-    <div className={styles.localesWrapper}>
+    <div className={styles.langSwitcher}>
       {routing.locales.map((locale, index) => (
         <Fragment key={locale}>
           <Link
@@ -28,9 +28,7 @@ export const LangSwitcher: FC<LangSwitcherProps> = props => {
           >
             {locale.toLocaleUpperCase()}
           </Link>
-          {index !== routing.locales.length - 1 && (
-            <span className={styles.locale}>/</span>
-          )}
+          {index !== routing.locales.length - 1 && <span>/</span>}
         </Fragment>
       ))}
     </div>

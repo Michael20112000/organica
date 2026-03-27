@@ -138,7 +138,7 @@
     "feedback": "For suggestions and requests"
   },
   "drinks": "Drinks",
-  "events": "Events",
+  "events": "EVENTS",
   "eventsPage": {
     "pageTitle": "Events",
     "card": {
@@ -193,7 +193,7 @@
     },
     "title": "Why Healthy Eating Matters in Today’s World"
   },
-  "feedback": "Feedback",
+  "feedback": "FEEDBACK",
   "footer": {
     "address": "Address",
     "booking": "For booking",

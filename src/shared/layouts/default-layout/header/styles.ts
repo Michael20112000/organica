@@ -9,6 +9,5 @@ export const styles = {
   ),
   firstNavBarPart: cn(navBarPart, 'justify-start'),
   link: cn('hidden text-[13px] font-light', 'lg:block', '2xl:text-[15px]'),
-  logotype: cn('lg:h-[46px] lg:w-[200px]'),
   secondNavBarPart: cn(navBarPart, 'justify-end'),
 }

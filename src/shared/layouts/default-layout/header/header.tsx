@@ -5,6 +5,7 @@ import {
   type NavigationLink,
 } from './get-header-navigation-links'
 import { Burger } from './burger'
+import { Drawer } from './drawer'
 import { styles } from './styles'
 
 export const Header = async () => {
@@ -22,17 +23,17 @@ export const Header = async () => {
   return (
     <header className={styles.header}>
       <nav className={styles.firstNavBarPart}>
-        <LangSwitcher styling={{ locale: styles.link }} />
+        <LangSwitcher styling={{ langSwitcher: styles.link }} />
         {renderNavigationLinks(firstNavigationPart)}
       </nav>
 
       <Link href='/'>
-        <Logotype className={styles.logotype} />
+        <Logotype />
       </Link>
 
       <nav className={styles.secondNavBarPart}>
         {renderNavigationLinks(secondNavigationBarPart)}
-        <Burger />
+        <Burger drawer={<Drawer />} />
       </nav>
     </header>
   )

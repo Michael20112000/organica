@@ -1,1 +1,6 @@
+export { Caret } from './caret'
+export { Close } from './close'
 export * from './logotype'
+export { Telegram } from './telegram'
+export { Viber } from './viber'
+export { Whatsapp } from './whatsapp'

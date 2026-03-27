@@ -6,9 +6,11 @@ import {
   LogotypeUk,
   LogotypeUkDark,
 } from '@/shared/assets/svg'
+import { getStyles } from './styles'
 
 interface LogotypeProps extends ComponentProps<'svg'> {
   darkMode?: boolean
+  styling?: Partial<ReturnType<typeof getStyles>>
 }
 
 export const Logotype: FC<LogotypeProps> = async props => {
@@ -29,5 +31,7 @@ export const Logotype: FC<LogotypeProps> = async props => {
   const theme = darkMode ? 'dark' : 'light'
   const Logo = logos[locale][theme]
 
-  return <Logo {...rest} />
+  const styles = getStyles(props.styling)
+
+  return <Logo className={styles.logotype} {...rest} />
 }
