@@ -1,10 +1,15 @@
 import { getTranslations } from 'next-intl/server'
 
+export interface NavigationLink {
+  href: string
+  text: string
+}
+
 export const getNavigation = async () => {
   const t = await getTranslations()
-  const choiceBaseUrl = process.env.CHOICE_BASE_URL!
+  const choiceBaseUrl = 'https://menu.organica.ua'
 
-  const navigationObject = {
+  const navigationObject: Record<string, NavigationLink> = {
     home: {
       href: '/',
       text: t('main'),
@@ -45,8 +50,22 @@ export const getNavigation = async () => {
 
   const navigationArray = Object.values(navigationObject)
 
+  const headerNavigation = {
+    firstNavigationPart: [
+      navigationObject.about,
+      navigationObject.useful,
+      navigationObject.contacts,
+    ],
+    secondNavigationBarPart: [
+      navigationObject.menu,
+      navigationObject.delivery,
+      navigationObject.reservation,
+    ],
+  }
+
   return {
     navigationObject,
     navigationArray,
+    headerNavigation,
   }
 }

@@ -1,16 +1,12 @@
 import { Link } from '@/i18n/navigation'
 import { TextSwapper, Logotype, LangSwitcher } from '@/shared/components'
-import {
-  getHeaderNavigationLinks,
-  type NavigationLink,
-} from './get-header-navigation-links'
+import { getNavigation, type NavigationLink } from '@/shared/hooks'
 import { Burger } from './burger'
 import { Drawer } from './drawer'
 import { styles } from './styles'
 
 export const Header = async () => {
-  const { firstNavigationPart, secondNavigationBarPart } =
-    await getHeaderNavigationLinks()
+  const { headerNavigation } = await getNavigation()
 
   const renderNavigationLinks = (links: NavigationLink[]) => {
     return links.map(link => (
@@ -24,7 +20,7 @@ export const Header = async () => {
     <header className={styles.header}>
       <nav className={styles.firstNavBarPart}>
         <LangSwitcher styling={{ langSwitcher: styles.link }} />
-        {renderNavigationLinks(firstNavigationPart)}
+        {renderNavigationLinks(headerNavigation.firstNavigationPart)}
       </nav>
 
       <Link href='/'>
@@ -32,7 +28,7 @@ export const Header = async () => {
       </Link>
 
       <nav className={styles.secondNavBarPart}>
-        {renderNavigationLinks(secondNavigationBarPart)}
+        {renderNavigationLinks(headerNavigation.secondNavigationBarPart)}
         <Burger drawer={<Drawer />} />
       </nav>
     </header>

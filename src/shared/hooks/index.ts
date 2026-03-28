@@ -1,2 +1,2 @@
-export { getNavigation } from './getNavigation'
+export { type NavigationLink, getNavigation } from './getNavigation'
 export { getContactsInfo } from './getContactsInfo'

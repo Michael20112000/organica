@@ -3,6 +3,7 @@ import { Inter_Tight, Playfair_Display } from 'next/font/google'
 import { hasLocale, NextIntlClientProvider } from 'next-intl'
 import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
+import { DefaultLayout } from '@/shared/layouts'
 import '../globals.css'
 
 export const revalidate = 300
@@ -34,7 +35,9 @@ const RootLayout: FC<RootLayoutProps> = async props => {
   return (
     <html lang={locale}>
       <body className={`${interTight.variable} ${playfairDisplay.variable}`}>
-        <NextIntlClientProvider>{props.children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <DefaultLayout>{props.children}</DefaultLayout>
+        </NextIntlClientProvider>
       </body>
     </html>
   )
