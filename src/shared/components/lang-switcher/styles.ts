@@ -5,6 +5,6 @@ export const getStyles = (extra?: Partial<typeof styles>) => {
 }
 
 const styles = {
-  langSwitcher: cn('[&>span]:mx-4'),
+  langSwitcher: cn('flex gap-4'),
   locale: cn('data-[active=true]:text-golden data-[active=true]:underline'),
 }

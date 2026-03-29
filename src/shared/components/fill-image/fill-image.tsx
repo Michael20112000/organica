@@ -2,7 +2,11 @@ import type { FC } from 'react'
 import Image, { type ImageProps } from 'next/image'
 import { styles } from './styles'
 
-export const FillImage: FC<ImageProps> = props => {
+interface FillImageProps extends Omit<ImageProps, 'alt'> {
+  alt?: string
+}
+
+export const FillImage: FC<FillImageProps> = props => {
   const { className, alt, ...rest } = props
 
   return (

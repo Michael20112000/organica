@@ -1,3 +1,4 @@
+export { BlocksRenderer } from './blocks-renderer'
 export { CircleLink } from './circle-link'
 export { DefaultButton } from './default-button'
 export { FillImage } from './fill-image'

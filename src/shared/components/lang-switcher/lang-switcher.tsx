@@ -4,6 +4,7 @@ import { type FC, Fragment } from 'react'
 import { useLocale } from 'next-intl'
 import { usePathname, Link } from '@/i18n/navigation'
 import { routing } from '@/i18n/routing'
+import { TextSwapper } from '@/shared/components'
 import { getStyles } from './styles'
 
 interface LangSwitcherProps {
@@ -26,7 +27,7 @@ export const LangSwitcher: FC<LangSwitcherProps> = props => {
             className={styles.locale}
             data-active={locale === currentLocale}
           >
-            {locale.toLocaleUpperCase()}
+            <TextSwapper text={locale.toLocaleUpperCase()} />
           </Link>
           {index !== routing.locales.length - 1 && <span>/</span>}
         </Fragment>

@@ -8,6 +8,6 @@ export const styles = {
     'md:py-30',
   ),
   firstNavBarPart: cn(navBarPart, 'justify-start'),
-  link: cn('hidden text-[13px] font-light', 'lg:block', '2xl:text-[15px]'),
+  link: cn('hidden text-[13px] font-light', 'lg:flex', '2xl:text-[15px]'),
   secondNavBarPart: cn(navBarPart, 'justify-end'),
 }

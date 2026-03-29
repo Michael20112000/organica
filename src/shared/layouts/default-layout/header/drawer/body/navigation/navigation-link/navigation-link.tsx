@@ -5,6 +5,7 @@ import { Link } from '@/i18n/navigation'
 import { Caret } from '@/shared/assets/svg'
 import type { NavigationLink as INavigationLink } from '@/shared/hooks'
 import { useDrawerStore } from '@/shared/store/drawer-store'
+import { TextSwapper } from '@/shared/components'
 import { styles } from './styles'
 
 export const NavigationLink: FC<INavigationLink> = props => {
@@ -12,7 +13,7 @@ export const NavigationLink: FC<INavigationLink> = props => {
 
   return (
     <Link href={props.href} className={styles.link} onClick={close}>
-      {props.text} <Caret width={14} height={14} />
+      <TextSwapper text={props.text} /> <Caret width={14} height={14} />
     </Link>
   )
 }
