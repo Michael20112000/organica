@@ -1,29 +1,31 @@
 import { cn } from '@/shared/lib'
 
-export const mergeExtraStyles = <
-  TBase extends Record<string, string | ((...args: unknown[]) => string)>,
->(
+type StyleFn = (...args: unknown[]) => string
+type StyleValue = string | StyleFn
+
+export const mergeExtraStyles = <TBase extends Record<string, StyleValue>>(
   base: TBase,
   extra?: Partial<TBase>,
-): typeof base => {
-  const entries = (Object.keys(base) as Array<keyof TBase>).map(k => {
+): TBase => {
+  const result = {} as TBase
+
+  for (const k of Object.keys(base) as Array<keyof TBase>) {
     const b = base[k]
     const e = extra?.[k]
 
     if (typeof b === 'function' || typeof e === 'function') {
-      return [
-        k,
-        (...args: unknown[]) => {
-          return cn(
-            typeof b === 'function' ? b(...args) : b,
-            typeof e === 'function' ? e(...args) : e,
-          )
-        },
-      ]
+      const mergedFn: StyleFn = (...args: unknown[]) =>
+        cn(
+          typeof b === 'function' ? b(...args) : b,
+          typeof e === 'function' ? e(...args) : e,
+        )
+
+      result[k] = mergedFn as TBase[typeof k]
+      continue
     }
 
-    return [k, cn(b, e)]
-  })
+    result[k] = cn(b, e) as TBase[typeof k]
+  }
 
-  return Object.fromEntries(entries)
+  return result
 }
