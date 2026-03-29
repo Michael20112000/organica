@@ -23,10 +23,10 @@ export const NoPromotions = async () => {
       </div>
       <Image
         src='/promotions-page/no-promotions.svg'
-        alt='No promotions'
-        fetchPriority='high'
+        priority
         width={673}
         height={400}
+        alt='No promotions'
       />
     </section>
   )
