@@ -4,14 +4,13 @@ export const fetchServer = async <T>(
   input: string | URL | Request,
   init?: RequestInit,
 ): Promise<T> => {
-  const STRAPI_API_URL = process.env.STRAPI_API_URL
   const STRAPI_API_TOKEN = process.env.STRAPI_API_TOKEN
 
-  if (!STRAPI_API_URL || !STRAPI_API_TOKEN) {
+  if (!STRAPI_API_TOKEN) {
     throw new Error('Server env variables are missing')
   }
 
-  const url = `${STRAPI_API_URL}${input}`
+  const url = `https://eb.organica.ua/api${input}`
 
   const response = await fetch(url, {
     ...init,
