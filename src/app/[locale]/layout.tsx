@@ -14,11 +14,15 @@ export function generateStaticParams() {
 }
 
 const interTight = Inter_Tight({
+  subsets: ['latin', 'cyrillic'],
+  weight: ['200', '300', '400', '600'],
   variable: '--font-inter-tight',
 })
 
 const playfairDisplay = Playfair_Display({
+  subsets: ['latin', 'cyrillic'],
   variable: '--font-playfair-display',
+  weight: ['400'],
   style: ['italic', 'normal'],
 })
 
