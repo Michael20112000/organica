@@ -47,14 +47,15 @@ export const Hero: FC<HeroProps> = ({ slides }) => {
         }}
         loop
       >
-        {slides.map(slide => (
+        {slides.map((slide, index) => (
           <SwiperSlide key={slide.image.url} className={styles.swiperSlide}>
             <FillImage
               className={styles.image}
               src={slide.image.url}
-              preload
-              fetchPriority='high'
+              preload={index === 0}
+              fetchPriority={index === 0 ? 'high' : 'auto'}
               alt={slide.image.alternativeText}
+              sizes='100vw'
             />
             <div className={styles.eclipse} />
             <div className={styles.content}>
