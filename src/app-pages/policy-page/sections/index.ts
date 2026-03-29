@@ -1,0 +1,7 @@
+export { PageHeading } from './page-heading'
+export { Section1 } from './section-1'
+export { Section2 } from './section-2'
+export { Section3 } from './section-3'
+export { Section4 } from './section-4'
+export { Section5 } from './section-5'
+export { Section6 } from './section-6'

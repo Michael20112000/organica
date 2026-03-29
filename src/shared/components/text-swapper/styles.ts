@@ -11,7 +11,7 @@ const styles = {
   firstText: cn(transitionTransform, 'group-hover:-translate-y-full'),
   secondText: cn(
     transitionTransform,
-    'absolute bottom-0 translate-y-full',
+    'absolute bottom-0 w-full translate-y-full',
     'group-hover:translate-y-0',
   ),
 }

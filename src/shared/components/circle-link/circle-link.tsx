@@ -1,9 +1,7 @@
-import type { ComponentProps, PropsWithChildren, FC } from 'react'
+import type { FC, ComponentProps } from 'react'
 import { styles } from './styles'
 
-type CircleLinkProps = ComponentProps<'a'> & PropsWithChildren
-
-export const CircleLink: FC<CircleLinkProps> = props => {
+export const CircleLink: FC<ComponentProps<'a'>> = props => {
   const { children, className, ...rest } = props
 
   return (
