@@ -1,1 +1,2 @@
-export { Map, setDestination } from './map'
+export { LazyMap as Map } from './lazy-map'
+export { setDestination } from './map'

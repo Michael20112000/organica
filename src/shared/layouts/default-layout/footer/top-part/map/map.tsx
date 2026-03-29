@@ -5,7 +5,7 @@ import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { styles } from './styles'
 
-export const coordinatesOrganicaLviv: [longitude: number, latitude: number] = [
+const coordinatesOrganicaLviv: [longitude: number, latitude: number] = [
   24.000570897377862, 49.847716139461575,
 ]
 
