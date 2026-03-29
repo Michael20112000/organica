@@ -4,11 +4,11 @@ import { getNavigation } from '@/shared/hooks'
 import { styles } from './styles'
 
 export const Navigation = async () => {
-  const { coreNavigation } = await getNavigation()
+  const { mainNavigation } = await getNavigation()
 
   return (
     <nav className={styles.navigation}>
-      {coreNavigation.map(({ href, text }) => (
+      {mainNavigation.map(({ href, text }) => (
         <Link key={href} href={href}>
           <TextSwapper text={text} />
         </Link>

@@ -37,5 +37,5 @@ export const Map = () => {
     return () => map.remove()
   }, [])
 
-  return <div id='mapboxContainer' className={styles.map} />
+  return <div id='mapboxContainer' className={styles.map()} />
 }

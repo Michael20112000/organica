@@ -15,7 +15,7 @@ export const LazyMap = () => {
   })
 
   return (
-    <div ref={ref} className={styles.map}>
+    <div ref={ref} className={styles.map('bg-olive/30')}>
       {inView && <Map />}
     </div>
   )

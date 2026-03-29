@@ -58,7 +58,7 @@ export const getNavigation = async () => {
 
   const navigationArray = Object.values(navigationObject)
 
-  const coreNavigation = [
+  const mainNavigation = [
     navigationObject.about,
     navigationObject.useful,
     navigationObject.contacts,
@@ -67,9 +67,21 @@ export const getNavigation = async () => {
     navigationObject.reservation,
   ]
 
+  const drawerNavigation = [
+    navigationObject.home,
+    navigationObject.menu,
+    navigationObject.about,
+    navigationObject.reservation,
+    navigationObject.delivery,
+    navigationObject.contacts,
+    navigationObject.events,
+    navigationObject.reviews,
+  ]
+
   return {
     navigationObject,
     navigationArray,
-    coreNavigation,
+    mainNavigation,
+    drawerNavigation,
   }
 }

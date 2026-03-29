@@ -3,11 +3,11 @@ import { NavigationLink } from './navigation-link'
 import { styles } from './styles'
 
 export const Navigation = async () => {
-  const { navigationArray } = await getNavigation()
+  const { drawerNavigation } = await getNavigation()
 
   return (
     <nav className={styles.navigation}>
-      {navigationArray.map(item => (
+      {drawerNavigation.map(item => (
         <NavigationLink key={item.href} {...item} />
       ))}
     </nav>

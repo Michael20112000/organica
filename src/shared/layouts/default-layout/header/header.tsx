@@ -7,10 +7,10 @@ import { Drawer } from './drawer'
 import { styles } from './styles'
 
 export const Header = async () => {
-  const { coreNavigation } = await getNavigation()
+  const { mainNavigation } = await getNavigation()
 
-  const firstNavigationPart = coreNavigation.slice(0, 3)
-  const secondNavigationBarPart = coreNavigation.slice(3)
+  const firstNavigationPart = mainNavigation.slice(0, 3)
+  const secondNavigationBarPart = mainNavigation.slice(3)
 
   const renderNavigationLinks = (links: NavigationLink[]) => {
     return links.map(link => (
