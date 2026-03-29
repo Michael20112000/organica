@@ -1,4 +1,5 @@
+export { CircleLink } from './circle-link'
+export { DefaultButton } from './default-button'
 export { FillImage } from './fill-image'
 export { LangSwitcher } from './lang-switcher'
-export { Logotype } from './logotype'
 export { TextSwapper } from './text-swapper'

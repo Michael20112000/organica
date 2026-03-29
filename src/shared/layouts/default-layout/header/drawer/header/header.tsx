@@ -1,4 +1,5 @@
-import { LangSwitcher, Logotype } from '@/shared/components'
+import { Logotype } from '@/shared/assets/svg'
+import { LangSwitcher } from '@/shared/components'
 import { CloseButton } from './close-button'
 import { styles } from './styles'
 

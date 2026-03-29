@@ -1,4 +1,4 @@
-import { cn, mergeExtraStyles } from '@/shared/lib'
+import { mergeExtraStyles, cn } from '@/shared/lib'
 
 export const getStyles = (extra?: Partial<typeof styles>) => {
   return mergeExtraStyles(styles, extra)

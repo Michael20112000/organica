@@ -46,26 +46,30 @@ export const getNavigation = async () => {
       href: '/reviews',
       text: t('feedback'),
     },
+    terms: {
+      href: '/terms',
+      text: t('footer.terms'),
+    },
+    policy: {
+      href: '/policy',
+      text: t('footer.policy'),
+    },
   }
 
   const navigationArray = Object.values(navigationObject)
 
-  const headerNavigation = {
-    firstNavigationPart: [
-      navigationObject.about,
-      navigationObject.useful,
-      navigationObject.contacts,
-    ],
-    secondNavigationBarPart: [
-      navigationObject.menu,
-      navigationObject.delivery,
-      navigationObject.reservation,
-    ],
-  }
+  const coreNavigation = [
+    navigationObject.about,
+    navigationObject.useful,
+    navigationObject.contacts,
+    navigationObject.menu,
+    navigationObject.delivery,
+    navigationObject.reservation,
+  ]
 
   return {
     navigationObject,
     navigationArray,
-    headerNavigation,
+    coreNavigation,
   }
 }

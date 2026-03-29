@@ -1,11 +1,9 @@
 import type { ComponentProps, FC } from 'react'
 import { getLocale } from 'next-intl/server'
-import {
-  LogotypeEn,
-  LogotypeEnDark,
-  LogotypeUk,
-  LogotypeUkDark,
-} from '@/shared/assets/svg'
+import { LogotypeEn } from './logotype-en'
+import { LogotypeEnDark } from './logotype-en-dark'
+import { LogotypeUk } from './logotype-uk'
+import { LogotypeUkDark } from './logotype-uk-dark'
 import { getStyles } from './styles'
 
 interface LogotypeProps extends ComponentProps<'svg'> {
