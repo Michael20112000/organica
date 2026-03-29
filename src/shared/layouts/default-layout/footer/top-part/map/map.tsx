@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react'
 import mapboxgl from 'mapbox-gl'
-import { coordinatesOrganicaLviv, setDestination } from './set-destination'
+import { coordinatesOrganicaLviv, googleMapsUrl } from './config'
 import { styles } from './styles'
 
 export const Map = () => {
@@ -30,7 +30,9 @@ export const Map = () => {
       .setLngLat(coordinatesOrganicaLviv)
       .addTo(map)
 
-    map.on('click', setDestination)
+    map.on('click', () => {
+      window.open(googleMapsUrl, '_blank')
+    })
 
     return () => map.remove()
   }, [])
