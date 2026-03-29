@@ -52,6 +52,8 @@ export const Hero: FC<HeroProps> = ({ slides }) => {
             <FillImage
               className={styles.image}
               src={slide.image.url}
+              preload
+              // fetchPriority='high'
               alt={slide.image.alternativeText}
             />
             <div className={styles.eclipse} />

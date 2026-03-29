@@ -23,7 +23,7 @@ export const NoPromotions = async () => {
       </div>
       <Image
         src='/promotions-page/no-promotions.svg'
-        priority
+        preload
         fetchPriority='high'
         width={673}
         height={400}
