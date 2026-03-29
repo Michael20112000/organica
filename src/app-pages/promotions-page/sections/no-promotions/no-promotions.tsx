@@ -24,6 +24,7 @@ export const NoPromotions = async () => {
       <Image
         src='/promotions-page/no-promotions.svg'
         priority
+        fetchPriority='high'
         width={673}
         height={400}
         alt='No promotions'
