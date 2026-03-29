@@ -1,7 +1,7 @@
 import { getTranslations } from 'next-intl/server'
 import { getContactsInfo } from '@/shared/hooks'
-import { CircleLink } from '@/shared/components'
-import { RouteButton } from './route-button'
+import { DefaultButton, CircleLink } from '@/shared/components'
+import { googleMapsUrl } from '../map'
 import { styles } from './styles'
 
 export const First = async () => {
@@ -15,7 +15,12 @@ export const First = async () => {
       <div className={styles.text2}>
         {t('footer.mondayShort')}-{t('footer.sundayShort')}: 09:00-22:00
       </div>
-      <RouteButton />
+      <DefaultButton
+        className={styles.button}
+        variant='transparent'
+        text={t('footer.btnLabelRoute')}
+        href={googleMapsUrl}
+      />
       <br />
       <div className={styles.socials}>
         {socialsArray.map(({ href, Icon }) => (
