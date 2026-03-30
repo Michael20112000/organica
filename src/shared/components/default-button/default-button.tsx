@@ -45,14 +45,14 @@ export const DefaultButton: FC<DefaultButtonProps> = props => {
     }
 
     return (
-      <Link className={className} {...(rest as LinkProps)}>
+      <Link className={classes} {...(rest as LinkProps)}>
         {content}
       </Link>
     )
   }
 
   return (
-    <button className={className} {...(rest as ButtonProps)}>
+    <button className={classes} {...(rest as ButtonProps)}>
       {content}
     </button>
   )
