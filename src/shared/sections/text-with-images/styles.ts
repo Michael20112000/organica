@@ -4,7 +4,7 @@ export const getStyles = (extra?: Partial<typeof styles>) => {
   return mergeExtraStyles(styles, extra)
 }
 
-export const styles = {
+const styles = {
   section: cn(''),
   content: cn('own-container', 'lg:grid lg:grid-cols-2'),
   label: cn(

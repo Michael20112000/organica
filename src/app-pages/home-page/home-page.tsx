@@ -1,10 +1,14 @@
 import { getTranslations } from 'next-intl/server'
-import { getSwiper } from '@/shared/api'
-import { Hero, TextWithImages } from '@/shared/sections'
+import { getSwiper, getMenuPearls } from '@/shared/api'
 import { cn } from '@/shared/lib'
+import { Hero, TextWithImages, TopDishes } from '@/shared/sections'
 
 export const HomePage = async () => {
-  const [t, swiper] = await Promise.all([getTranslations('home'), getSwiper()])
+  const [t, swiper, menuPearls] = await Promise.all([
+    getTranslations('home'),
+    getSwiper(),
+    getMenuPearls(),
+  ])
 
   return (
     <>
@@ -31,6 +35,7 @@ export const HomePage = async () => {
           ),
         }}
       />
+      <TopDishes menuPearls={menuPearls.data} />
     </>
   )
 }
