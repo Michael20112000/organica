@@ -8,6 +8,7 @@ import {
   ContentBlockWithImage,
 } from '@/shared/sections'
 import { SavorBenefits } from './blocks'
+import { WithLoveForNature } from './sections'
 
 export const HomePage = async () => {
   const [t, swiper, menuPearls] = await Promise.all([
@@ -49,7 +50,7 @@ export const HomePage = async () => {
           alt: 'Alternative text',
         }}
       />
-      <div className='h-200'></div>
+      <WithLoveForNature />
     </>
   )
 }
