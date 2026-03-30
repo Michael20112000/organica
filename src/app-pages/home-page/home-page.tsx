@@ -1,12 +1,36 @@
+import { getTranslations } from 'next-intl/server'
 import { getSwiper } from '@/shared/api'
-import { Hero } from '@/shared/sections'
+import { Hero, TextWithImages } from '@/shared/sections'
+import { cn } from '@/shared/lib'
 
 export const HomePage = async () => {
-  const [swiper] = await Promise.all([getSwiper()])
+  const [t, swiper] = await Promise.all([getTranslations('home'), getSwiper()])
 
   return (
     <>
       <Hero slides={swiper.data.slide} />
+      <TextWithImages
+        label={t('info.sectionLabel')}
+        headingTKey='home.info.title'
+        text={t('info.mission')}
+        images={[
+          {
+            src: '/home-page/info-section-1.webp',
+            alt: '',
+          },
+          {
+            src: '/home-page/info-section-2.webp',
+            alt: '',
+          },
+        ]}
+        styling={{
+          section: cn(
+            'pt-80 pb-110',
+            'md:pt-100 md:pb-130',
+            'xl:pt-130 xl:pb-180',
+          ),
+        }}
+      />
     </>
   )
 }
