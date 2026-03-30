@@ -8,10 +8,10 @@ export const Navigation = forwardRef<SVGCircleElement>((props, ref) => {
     <>
       <Progress ref={ref} />
       <div className={styles.navigation}>
-        <button className={styles.prev}>
+        <button className={styles.prev} aria-label='Previous slide'>
           <Arrow />
         </button>
-        <button className={styles.next}>
+        <button className={styles.next} aria-label='Next slide'>
           <Arrow />
         </button>
       </div>
