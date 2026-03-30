@@ -20,6 +20,8 @@ export const First = async () => {
         variant='transparent'
         text={t('footer.btnLabelRoute')}
         href={googleMapsUrl}
+        aria-label='Google Maps'
+        target='_blank'
       />
       <br />
       <div className={styles.socials}>

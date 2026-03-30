@@ -61,7 +61,12 @@ export const Hero: FC<HeroProps> = ({ slides }) => {
             <div className={styles.content}>
               <div className={styles.supTitle}>{slide.supTitle}</div>
               <BlocksRenderer content={slide.title} className={styles.title} />
-              <DefaultButton text={slide.buttonText} href={slide.buttonLink} />
+              <DefaultButton
+                text={slide.buttonText}
+                href={slide.buttonLink}
+                aria-label={slide.buttonText}
+                target='_blank'
+              />
             </div>
           </SwiperSlide>
         ))}

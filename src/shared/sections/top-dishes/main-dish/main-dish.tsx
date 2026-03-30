@@ -7,6 +7,7 @@ import {
   FillImage,
   DefaultButton,
 } from '@/shared/components'
+import { getNavigation } from '@/shared/hooks'
 import { styles } from './styles'
 
 interface MainDishProps {
@@ -14,7 +15,10 @@ interface MainDishProps {
 }
 
 export const MainDish: FC<MainDishProps> = async props => {
-  const t = await getTranslations('home.menu')
+  const [t, { navigationObject }] = await Promise.all([
+    getTranslations('home.menu'),
+    getNavigation(),
+  ])
 
   return (
     <div className={styles.mainDish}>
@@ -33,8 +37,10 @@ export const MainDish: FC<MainDishProps> = async props => {
         />
         <p className={styles.text}>{t('content')}</p>
         <DefaultButton
-          href='https://menu.organica.com.ua'
           text={t('btnLabel')}
+          href={navigationObject.menu.href}
+          aria-label={t('btnLabel')}
+          target='_blank'
         />
       </div>
     </div>

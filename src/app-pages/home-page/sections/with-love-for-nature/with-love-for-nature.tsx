@@ -37,6 +37,8 @@ export const WithLoveForNature: FC<WithLoveForNatureProps> = async props => {
           variant='dark'
           text={t('btnLabel')}
           href={navigationObject.reservation.href}
+          aria-label='Reservation'
+          target='_blank'
         />
       </div>
     </section>

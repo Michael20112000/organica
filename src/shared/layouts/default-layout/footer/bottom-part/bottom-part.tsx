@@ -14,8 +14,10 @@ export const BottomPart = async () => {
       <DefaultButton
         className={styles.leaveFeedbackButton}
         variant='transparent'
-        href='/'
         text={t('contact.contactsSection.btnLabelFeedback')}
+        href='/'
+        aria-label='Leave feedback'
+        target='_blank'
       />
     </div>
   )

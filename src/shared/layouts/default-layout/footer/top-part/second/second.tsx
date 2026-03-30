@@ -35,6 +35,8 @@ export const Second = async () => {
         variant='transparent'
         text={t('footer.btnLabelFeedback')}
         href='/'
+        aria-label='Leave feedback'
+        target='_blank'
       />
     </div>
   )

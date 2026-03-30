@@ -51,8 +51,10 @@ export const TopDishes: FC<TopDishesProps> = async props => {
         <div className={styles.mobileBottomPart}>
           <p className={styles.mobileBottomText}>{t('content')}</p>
           <DefaultButton
-            href={navigationObject.menu.href}
             text={t('btnLabel')}
+            href={navigationObject.menu.href}
+            aria-label={t('btnLabel')}
+            target='_blank'
           />
         </div>
       </div>
