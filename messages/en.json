@@ -23,7 +23,8 @@
       "present": "Give as a gift"
     },
     "first": {
-      "content": "We are cooking food <br></br><italic>that heals</italic>",
+      "content1": "We are cooking food\n",
+      "content2": "that heals",
       "menu": "View Menu",
       "phrase": "About us"
     },

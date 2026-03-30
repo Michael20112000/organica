@@ -31,11 +31,7 @@ export const Hero: FC<HeroProps> = ({ slides }) => {
         className={styles.swiperCarousel}
         modules={[EffectFade, Autoplay, NavigationModule]}
         navigation={{ prevEl: '.prev-el', nextEl: '.next-el' }}
-        autoplay={
-          slides.length > 1
-            ? { delay: 8000, disableOnInteraction: false }
-            : false
-        }
+        autoplay={slides.length > 1 ? { delay: 8000 } : false}
         speed={1000}
         fadeEffect={{ crossFade: true }}
         effect='fade'

@@ -21,9 +21,7 @@ export const BlocksRenderer: FC<BlocksRendererProps> = props => {
         ),
       }}
       modifiers={{
-        italic: ({ children }) => (
-          <em className={props.className}>{children}</em>
-        ),
+        italic: ({ children }) => <em>{children}</em>,
       }}
     />
   )
