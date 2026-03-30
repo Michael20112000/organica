@@ -6,6 +6,7 @@ import {
   TextWithImages,
   TopDishes,
   ContentBlockWithImage,
+  ParallaxPicture,
 } from '@/shared/sections'
 import { SavorBenefits } from './blocks'
 import { WithLoveForNature } from './sections'
@@ -51,6 +52,7 @@ export const HomePage = async () => {
         }}
       />
       <WithLoveForNature />
+      <ParallaxPicture src='/home-page/parallax-large.webp' />
     </>
   )
 }
