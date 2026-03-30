@@ -27,7 +27,7 @@ export const Header = async () => {
         {renderNavigationLinks(firstNavigationPart)}
       </nav>
 
-      <Link href='/'>
+      <Link href='/' aria-label='Organica'>
         <Logotype />
       </Link>
 

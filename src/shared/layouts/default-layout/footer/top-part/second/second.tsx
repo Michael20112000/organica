@@ -22,8 +22,8 @@ export const Second = async () => {
             {contact.phone.text}
           </a>
           <div className={styles.messengers}>
-            {contact.messengers.map(({ href, Icon }) => (
-              <a key={href} href={href} target='_blank'>
+            {contact.messengers.map(({ href, Icon, label }) => (
+              <a key={href} href={href} target='_blank' aria-label={label}>
                 <Icon />
               </a>
             ))}

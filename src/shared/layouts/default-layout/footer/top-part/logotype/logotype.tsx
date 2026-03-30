@@ -5,7 +5,7 @@ import { styles } from './styles'
 export const Logotype = () => {
   return (
     <div className={styles.logotypeWrapper}>
-      <Link href='/'>
+      <Link href='/' aria-label='Organica'>
         <Logo darkMode className={styles.logotype} />
       </Link>
     </div>

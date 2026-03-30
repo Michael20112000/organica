@@ -1,6 +1,5 @@
 import { Fragment } from 'react'
 import { getTranslations } from 'next-intl/server'
-import { Link } from '@/i18n/navigation'
 import { getContactsInfo } from '@/shared/hooks'
 import { styles } from './styles'
 
@@ -18,14 +17,14 @@ export const Contacts = async () => {
         <Fragment key={contact.label}>
           <div className={styles.title}>{contact.label}:</div>
           <div className={styles.rowBetween}>
-            <Link className={styles.text} href={contact.phone.href}>
+            <a className={styles.text} href={contact.phone.href}>
               {contact.phone.text}
-            </Link>
+            </a>
             <div className={styles.row}>
-              {contact.messengers.map(({ href, Icon }) => (
-                <Link key={href} href={href} target='_blank'>
+              {contact.messengers.map(({ href, Icon, label }) => (
+                <a key={href} href={href} target='_blank' aria-label={label}>
                   <Icon className={styles.icon} width={32} height={32} />
-                </Link>
+                </a>
               ))}
             </div>
           </div>
