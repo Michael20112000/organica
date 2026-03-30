@@ -23,11 +23,11 @@ export const Burger: FC<BurgerProps> = props => {
 
   return (
     <>
-      <div className={styles.burger} onClick={open}>
+      <button className={styles.burger} onClick={open} aria-label='Open menu'>
         <div className={styles.cutlet} />
         <div className={styles.cutlet} />
         <div className={styles.cutlet} />
-      </div>
+      </button>
       <div className={styles.eclipse(isOpen)}></div>
       <div className={styles.drawerWrapper(isOpen)}>{props.drawer}</div>
     </>
