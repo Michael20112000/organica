@@ -1,7 +1,13 @@
 import { getTranslations } from 'next-intl/server'
 import { getSwiper, getMenuPearls } from '@/shared/api'
 import { cn } from '@/shared/lib'
-import { Hero, TextWithImages, TopDishes } from '@/shared/sections'
+import {
+  Hero,
+  TextWithImages,
+  TopDishes,
+  ContentBlockWithImage,
+} from '@/shared/sections'
+import { SavorBenefits } from './blocks'
 
 export const HomePage = async () => {
   const [t, swiper, menuPearls] = await Promise.all([
@@ -20,11 +26,11 @@ export const HomePage = async () => {
         images={[
           {
             src: '/home-page/info-section-1.webp',
-            alt: '',
+            alt: 'Alternative text',
           },
           {
             src: '/home-page/info-section-2.webp',
-            alt: '',
+            alt: 'Alternative text',
           },
         ]}
         styling={{
@@ -36,6 +42,14 @@ export const HomePage = async () => {
         }}
       />
       <TopDishes menuPearls={menuPearls.data} />
+      <ContentBlockWithImage
+        content={<SavorBenefits />}
+        image={{
+          src: '/home-page/harmony-section-2.webp',
+          alt: 'Alternative text',
+        }}
+      />
+      <div className='h-200'></div>
     </>
   )
 }
