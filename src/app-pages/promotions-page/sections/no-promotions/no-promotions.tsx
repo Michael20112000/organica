@@ -15,8 +15,8 @@ export const NoPromotions = async () => {
       <h3 className={styles.title}>{t('noDataTitle')}</h3>
       <em className={styles.subtitle}>{t('noPromoPhrase')}</em>
       <div className={styles.socials}>
-        {socialsArray.map(({ href, Icon }) => (
-          <CircleLink key={href} href={href} target='_blank'>
+        {socialsArray.map(({ href, Icon, label }) => (
+          <CircleLink key={href} href={href} aria-label={label} target='_blank'>
             <Icon />
           </CircleLink>
         ))}
