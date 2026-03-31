@@ -1,10 +1,9 @@
 'use client'
 
 import type { FC } from 'react'
-import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Heading, RichText, Paragraph } from '@/shared/components'
+import { Heading, RichText, Paragraph, FillImage } from '@/shared/components'
 import { getStyles } from './styles'
 
 const pictures = [
@@ -70,11 +69,9 @@ export const DiscoverWholesomeCuisine: FC<
       >
         {[...pictures, ...pictures].map((picture, index) => (
           <SwiperSlide key={picture.url + index}>
-            <Image
+            <FillImage
               className={styles.image}
               src={picture.url}
-              width={613}
-              height={700}
               alt={picture.alt}
               sizes='(min-width: 900px) 30vw, (min-width: 600px) 50vw, 80vw'
             />

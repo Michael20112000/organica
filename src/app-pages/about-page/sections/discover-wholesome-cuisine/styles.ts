@@ -14,9 +14,13 @@ const styles = {
   heading: cn('xl:shrink-0'),
   text: cn('mt-28 max-w-580', 'md:mt-40', 'xl:mt-16'),
   image: cn(
-    'object-cover duration-300',
+    'h-360 transition-transform duration-300',
     '[.swiper-slide-active_&]:translate-y-40',
     'xl:[.swiper-slide-active_&]:translate-y-0',
     'xl:[.swiper-slide-next_&]:translate-y-40',
+    'md:h-490',
+    'lg:h-660',
+    'xl:h-420',
+    '2xl:h-550',
   ),
 }
