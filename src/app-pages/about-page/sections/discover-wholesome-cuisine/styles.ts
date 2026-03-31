@@ -14,13 +14,13 @@ const styles = {
   heading: cn('xl:shrink-0'),
   text: cn('mt-28 max-w-580', 'md:mt-40', 'xl:mt-16'),
   image: cn(
-    'h-360 transition-transform duration-300',
-    '[.swiper-slide-active_&]:translate-y-40',
-    'xl:[.swiper-slide-active_&]:translate-y-0',
-    'xl:[.swiper-slide-next_&]:translate-y-40',
+    'mb-40 h-360 duration-300',
+    '[.swiper-slide-active_&]:mt-40 [.swiper-slide-active_&]:mb-0',
     'md:h-490',
     'lg:h-660',
     'xl:h-420',
+    'xl:[.swiper-slide-active_&]:mt-0 xl:[.swiper-slide-active_&]:mb-40',
+    'xl:[.swiper-slide-next_&]:mt-40 xl:[.swiper-slide-next_&]:mb-0',
     '2xl:h-550',
   ),
 }

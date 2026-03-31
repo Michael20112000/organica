@@ -5,7 +5,7 @@ import type { Swiper } from '@/shared/types'
 import {
   DiscoverWholesomeCuisine,
   OurVision,
-  // OurValues,
+  OurValues,
   OurTeam,
 } from './sections'
 
@@ -57,7 +57,7 @@ export const AboutPage = async () => {
       <Hero slides={heroSlides} />
       <DiscoverWholesomeCuisine />
       <OurVision />
-      {/*<OurValues />*/}
+      <OurValues />
       <OurTeam />
     </>
   )

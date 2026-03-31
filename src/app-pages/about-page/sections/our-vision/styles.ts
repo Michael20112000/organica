@@ -11,5 +11,5 @@ const styles = {
   heading: cn('my-24', 'md:my-30'),
   text: cn('md:mx-auto md:max-w-610', '2xl:max-w-720'),
   swiper: cn('!px-16', 'md:!px-50', 'xl:!px-70'),
-  image: cn('h-350', 'md:h-440', 'lg:h-550'),
+  image: cn('h-350', 'md:h-440', 'lg:h-550', '2xl:h-700'),
 }
