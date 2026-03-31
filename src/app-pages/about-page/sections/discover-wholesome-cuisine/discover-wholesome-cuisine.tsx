@@ -7,12 +7,6 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { Heading, RichText, Paragraph } from '@/shared/components'
 import { getStyles } from './styles'
 
-// 1-4 pictures are duplicated into 5-8
-// This is necessary for the swiper to work correctly with loop
-// 1 === 5
-// 2 === 6
-// 3 === 7
-// 4 === 8
 const pictures = [
   {
     url: '/about-page/about-swiper-1.webp',
@@ -28,22 +22,6 @@ const pictures = [
   },
   {
     url: '/about-page/about-swiper-4.webp',
-    alt: 'Coconut Pineapple Tart',
-  },
-  {
-    url: '/about-page/about-swiper-5.webp',
-    alt: 'Avocado toast',
-  },
-  {
-    url: '/about-page/about-swiper-6.webp',
-    alt: 'White bean and kiwi salad',
-  },
-  {
-    url: '/about-page/about-swiper-7.webp',
-    alt: 'Hummus with tahini-curry sauce',
-  },
-  {
-    url: '/about-page/about-swiper-8.webp',
     alt: 'Coconut Pineapple Tart',
   },
 ]
@@ -90,15 +68,15 @@ export const DiscoverWholesomeCuisine: FC<
         }}
         loop
       >
-        {pictures.map(picture => (
-          <SwiperSlide key={picture.url}>
+        {[...pictures, ...pictures].map((picture, index) => (
+          <SwiperSlide key={picture.url + index}>
             <Image
               className={styles.image}
               src={picture.url}
               width={613}
               height={700}
               alt={picture.alt}
-              sizes='(max-width: 599px) 80vw, (max-width: 899px) 50vw, 30vw'
+              sizes='(min-width: 900px) 30vw, (min-width: 600px) 50vw, 80vw'
             />
           </SwiperSlide>
         ))}

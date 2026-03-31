@@ -2,7 +2,7 @@ import { getTranslations } from 'next-intl/server'
 import { getNavigation } from '@/shared/hooks'
 import { Hero } from '@/shared/sections'
 import type { Swiper } from '@/shared/types'
-import { DiscoverWholesomeCuisine, OurVision } from './sections'
+import { DiscoverWholesomeCuisine, OurVision, OurValues } from './sections'
 
 export const AboutPage = async () => {
   const [t, { navigationObject }] = await Promise.all([
@@ -52,6 +52,7 @@ export const AboutPage = async () => {
       <Hero slides={heroSlides} />
       <DiscoverWholesomeCuisine />
       <OurVision />
+      <OurValues />
     </>
   )
 }

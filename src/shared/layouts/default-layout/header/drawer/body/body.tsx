@@ -10,6 +10,7 @@ export const Body = async () => {
         className={styles.image}
         src='/drawer.webp'
         alt='Drawer image'
+        sizes='60vw'
       />
       <div className={styles.content}>
         <Navigation />
