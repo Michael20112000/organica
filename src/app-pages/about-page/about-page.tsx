@@ -1,7 +1,8 @@
 import { getTranslations } from 'next-intl/server'
 import { getNavigation } from '@/shared/hooks'
-import { Hero } from '@/shared/sections'
+import { Hero, ContentBlockWithImage } from '@/shared/sections'
 import type { Swiper } from '@/shared/types'
+import { OurCookingPhilosophy } from './blocks'
 import {
   DiscoverWholesomeCuisine,
   OurVision,
@@ -59,6 +60,13 @@ export const AboutPage = async () => {
       <OurVision />
       <OurValues />
       <OurTeam />
+      <ContentBlockWithImage
+        content={<OurCookingPhilosophy />}
+        image={{
+          src: '/home-page/harmony-section-2.webp',
+          alt: 'Alternative text',
+        }}
+      />
     </>
   )
 }
