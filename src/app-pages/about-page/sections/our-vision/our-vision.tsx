@@ -1,22 +1,17 @@
 'use client'
 
 import type { FC } from 'react'
-import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Heading, RichText, Paragraph } from '@/shared/components'
+import { Heading, RichText, Paragraph, FillImage } from '@/shared/components'
 import { getStyles } from './styles'
 
 const pictures = [
   {
     src: '/about-page/vision-section-1.webp',
-    width: 1260,
-    height: 1100,
   },
   {
     src: '/about-page/vision-section-2.webp',
-    width: 3688,
-    height: 6000,
   },
 ]
 
@@ -55,9 +50,9 @@ export const OurVision: FC<OurVisionProps> = props => {
       >
         {pictures.map(picture => (
           <SwiperSlide key={picture.src}>
-            <Image
+            <FillImage
               className={styles.image}
-              {...picture}
+              src={picture.src}
               alt='Alternative text'
               sizes='(min-width: 900px) 45vw, 80vw'
             />
