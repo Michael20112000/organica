@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server'
 import { getNavigation } from '@/shared/hooks'
-import { Hero, ContentBlockWithImage } from '@/shared/sections'
+import { Hero, ContentBlockWithImage, TextWithImages } from '@/shared/sections'
 import type { Swiper } from '@/shared/types'
 import { OurCookingPhilosophy } from './blocks'
 import {
@@ -9,6 +9,7 @@ import {
   OurValues,
   OurTeam,
 } from './sections'
+import { cn } from '@/shared/lib'
 
 export const AboutPage = async () => {
   const [t, { navigationObject }] = await Promise.all([
@@ -65,6 +66,28 @@ export const AboutPage = async () => {
         image={{
           src: '/home-page/harmony-section-2.webp',
           alt: 'Alternative text',
+        }}
+      />
+      <TextWithImages
+        label={t('booking.sectionLabel')}
+        headingTKey='about.booking.title'
+        text={t('booking.content')}
+        images={[
+          {
+            src: '/about-page/booking-section-1.webp',
+            alt: '',
+          },
+          {
+            src: '/about-page/booking-section-2.webp',
+            alt: '',
+          },
+        ]}
+        styling={{
+          section: cn(
+            'pt-80 pb-110',
+            'md:pt-100 md:pb-130',
+            'xl:pt-130 xl:pb-180',
+          ),
         }}
       />
     </>

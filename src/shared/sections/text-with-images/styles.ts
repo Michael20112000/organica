@@ -17,7 +17,8 @@ const styles = {
   swiper: cn(
     'col-span-full mt-36 h-370 !px-16',
     'md:mt-50 md:h-500 md:!px-50',
-    'xl:!px-70',
+    'xl:h-550 xl:!px-70',
+    '2xl:h-700',
   ),
   image: cn('h-full'),
 }
