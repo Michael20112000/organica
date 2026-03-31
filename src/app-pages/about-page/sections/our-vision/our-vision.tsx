@@ -59,6 +59,7 @@ export const OurVision: FC<OurVisionProps> = props => {
               className={styles.image}
               {...picture}
               alt='Alternative text'
+              sizes='(max-width: 899px) 80vw, 45vw'
             />
           </SwiperSlide>
         ))}

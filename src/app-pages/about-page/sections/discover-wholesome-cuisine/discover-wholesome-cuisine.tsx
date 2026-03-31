@@ -98,6 +98,7 @@ export const DiscoverWholesomeCuisine: FC<
               width={613}
               height={700}
               alt={picture.alt}
+              sizes='(max-width: 599px) 80vw, (max-width: 899px) 50vw, 30vw'
             />
           </SwiperSlide>
         ))}
