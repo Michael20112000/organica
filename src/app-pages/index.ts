@@ -1,4 +1,5 @@
 export { AboutPage } from './about-page'
+export { ContactsPage } from './contacts-page'
 export { HomePage } from './home-page'
 export { PolicyPage } from './policy-page'
 export { PromotionsPage } from './promotions-page'
