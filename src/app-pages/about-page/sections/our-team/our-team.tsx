@@ -13,7 +13,7 @@ export const OurTeam = async () => {
           className={styles.image}
           src='/about-page/our-team.jpg'
           alt='Our Team'
-          sizes='(min-width: 768px) 100vw, 50vw'
+          sizes='(min-width: 600px) 100vw, 50vw'
         />
         <FillImage
           className={styles.image}
